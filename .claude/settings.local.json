@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import json; nb=json.load\\(open\\('/Users/assaf/phd/ai-projects/simple-chatbot/chatbot.ipynb'\\)\\); print\\(json.dumps\\([{'id': c['id'], 'type': c['cell_type'], 'src': c['source'][:60] if c['source'] else ''} for c in nb['cells']], indent=2\\)\\)\")",
+      "Bash(python3 -c ':*)"
+    ]
+  }
+}
